@@ -20,7 +20,7 @@ This all occurs in a Linux environment (specifically Xubuntu 20.04), and the cou
 
 These robots operated based on input from two cameras and several LiDARs. The camera input is the most important to the detection and processing of the clues, as they are located on boards placed throughout the course. The robot's decision making is based on a finite state machine which uses the clueboard detections to transition between neural networks trained to drive each section of the course using imitation learning. 
 
-| <img src="/images//enph_353_course.png" style="height:400px; width:auto;"> | <img src="/images/debug_and_comp_353.png" style="height:400px; width:auto;"> |
+| <img src="/images/enph_353_course.png" style="height:400px; width:auto;"> | <img src="/images/debug_and_comp_353.jpg" style="height:400px; width:auto;"> |
 |:---:|:---:|
 | Image of the simulated competition environment with important sections labelled | A screenshot showing the robot in the competition environment (simulated in Gazebo) with the debug UI I wrote to evaluate the detection process |
 

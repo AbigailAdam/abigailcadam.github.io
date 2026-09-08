@@ -9,7 +9,7 @@ permalink: /research/
 <div class="research-grid" markdown="0">
 
 <div class="research-card">
-  <img src="{{ '/images/debug_and_comp_353.png' | relative_url }}" class="research-thumb" width="400" height="200" alt="Full simulation image">
+  <img src="{{ '/images/debug_and_comp_353.jpg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Full simulation image">
   <div class="research-body">
     <h2 class="research-title">
       <a href="{{ '/research/enph-353/' | relative_url }}">Machine Learning Project - ENPH 353 Competiton</a>
@@ -29,7 +29,7 @@ permalink: /research/
 </div>
 
 <div class="research-card">
-  <img src="{{ '/images/mcmcfile.png' | relative_url }}" class="research-thumb" width="400" height="200" alt="Parton model">
+  <img src="{{ '/images/mcmcfile.jpg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Parton model">
   <div class="research-body">
     <h2 class="research-title">
       <a href="{{ '/research/exoplanet-characterisation/' | relative_url }}">Exoplanet Characterisation</a>

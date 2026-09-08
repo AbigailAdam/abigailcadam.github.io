@@ -17,7 +17,7 @@ This project was completed for ENPH 253. In this course, students form teams and
 
 Here are some images of the final robot taken from various angles: 
 
-| <img src="/images/marshall_with_lid.png" style="height:400px; width:auto;"> | <img src="/images/marshall_w_basket.jpeg" style="height:400px; width:auto;"> |
+| <img src="/images/marshall_with_lid.jpg" style="height:400px; width:auto;"> | <img src="/images/marshall_w_basket.jpeg" style="height:400px; width:auto;"> |
 |:---:|:---:|
 | Top view of the robot | Side view of the robot (with the basket) |
 
@@ -45,7 +45,7 @@ Image of PCB taken from KiCAD's 3D visualiser
 </figure>
 
 <figure>
-<img src="{{ '/images/hbridge.png' | relative_url }}" alt="H Bridge PCB" width="300" height="auto">
+<img src="{{ '/images/hbridge.jpg' | relative_url }}" alt="H Bridge PCB" width="300" height="auto">
 <figcaption>
 Image of PCB once all elements were soldered on
 </figcaption>
