@@ -6,9 +6,19 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: var(--space-6);
+
+  /* Force kramdown <p> wrappers out of the layout if injected */
+  > p {
+    display: contents;
+    margin: 0;
+  }
 }
 
 .research-card {
+  position: relative; /* REQUIRED: Anchor boundary for full-card click area */
+  display: flex;
+  flex-direction: column;
+
   background: linear-gradient(
     160deg,
     var(--bg-card) 0%,
@@ -46,12 +56,36 @@
     font-weight: 700;
     margin-top: 0;
     margin-bottom: var(--space-2);
+    color: var(--text-primary);
     &::after { display: none; }
+
+    /* Target the link explicitly to override theme defaults */
+    a,
+    a:visited,
+    a:hover,
+    a:focus {
+      color: inherit !important;
+      text-decoration: none !important;
+      border-bottom: none !important; /* Removes theme underlines */
+      box-shadow: none !important;
+    }
+
+    /* Stretch the clickable hit-area across the entire card */
+    a::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 10;
+    }
   }
 
   .research-desc {
     font-size: 0.875rem;
     color: var(--text-secondary);
     line-height: 1.7;
+    margin: 0;
   }
 }

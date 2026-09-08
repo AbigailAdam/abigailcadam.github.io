@@ -6,6 +6,7 @@ permalink: /allnews.html
 
 # News
 
+<!-- 
 <div class="section-card" markdown="0">
 <div class="news-timeline">
 {% for article in site.data.news %}
@@ -16,3 +17,4 @@ permalink: /allnews.html
 {% endfor %}
 </div>
 </div>
+-->

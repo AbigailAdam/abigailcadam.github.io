@@ -4,56 +4,38 @@ layout: page
 permalink: /research/
 ---
 
-# Research
+# Projects
 
-<div class="research-grid">
-
-<div class="research-card">
-<img src="{{ '/images/research/qed.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Feynman diagram">
-<div class="research-body">
-<h2 class="research-title">Quantum Electrodynamics</h2>
-<p class="research-desc">Development of the path integral formulation of quantum mechanics and its application to quantum electrodynamics (QED). This work introduced Feynman diagrams as a powerful tool for calculating particle interactions, providing an intuitive visual representation of complex quantum processes.</p>
-</div>
-</div>
+<div class="research-grid" markdown="0">
 
 <div class="research-card">
-<img src="{{ '/images/research/superfluidity.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Superfluid helium">
-<div class="research-body">
-<h2 class="research-title">Superfluidity</h2>
-<p class="research-desc">Quantum mechanical explanation of the behavior of liquid helium near absolute zero. Using path integral methods, we developed a microscopic theory of the lambda transition and explained the energy spectrum of excitations in superfluid helium, including the roton minimum.</p>
-</div>
+  <img src="{{ '/images/debug_and_comp_353.png' | relative_url }}" class="research-thumb" width="400" height="200" alt="Full simulation image">
+  <div class="research-body">
+    <h2 class="research-title">
+      <a href="{{ '/research/enph-353/' | relative_url }}">Machine Learning Project - ENPH 353 Competiton</a>
+    </h2>
+    <p class="research-desc">Development of convolutional neural network and imination learning model allowing an agent simulated in ROS to navigate a course and read messages hidden throughout.</p>
+  </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/partons.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Parton model">
-<div class="research-body">
-<h2 class="research-title">Parton Model</h2>
-<p class="research-desc">A model describing the internal structure of hadrons in terms of point-like constituents called partons. This framework proved essential for interpreting deep inelastic scattering experiments at SLAC and laid the groundwork for quantum chromodynamics (QCD).</p>
-</div>
-</div>
-
-<div class="research-card">
-<img src="{{ '/images/research/quantum-computing.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Quantum circuit">
-<div class="research-body">
-<h2 class="research-title">Quantum Computing</h2>
-<p class="research-desc">Pioneering proposals for using quantum mechanical systems to perform computation. We demonstrated that classical computers cannot efficiently simulate quantum physics, motivating the development of quantum computers that exploit superposition and entanglement.</p>
-</div>
+  <img src="{{ '/images/enph253_robot1.png' | relative_url }}" class="research-thumb" width="400" height="200" alt="Superfluid helium">
+  <div class="research-body">
+    <h2 class="research-title">
+      <a href="{{ '/research/253-robot/' | relative_url }}">Autonomous Robot - ENPH 253 Competiton</a>
+    </h2>
+    <p class="research-desc">This project was completed for ENPH 253. In this course, students form teams and build autonomous robots to participate in a competition. The 2025 Competition involved the robots collecting Beanie Babies from various positions along an obstacle course and returning them to a safe zone. The competition takes place over a 6 week build and design cycle.</p>
+  </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/nanotechnology.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Atomic manipulation">
-<div class="research-body">
-<h2 class="research-title">Nanotechnology</h2>
-<p class="research-desc">Exploration of the physical possibilities of manipulating matter at the atomic scale. The talk "There's Plenty of Room at the Bottom" envisioned machines that could arrange atoms one by one, anticipating modern nanotechnology and molecular manufacturing.</p>
-</div>
-</div>
-
-<div class="research-card">
-<img src="{{ '/images/research/weak-interactions.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Weak interaction diagram">
-<div class="research-body">
-<h2 class="research-title">Weak Interactions</h2>
-<p class="research-desc">Development of the V-A theory of the weak interaction with Murray Gell-Mann. This theory correctly predicted the structure of weak decays and was later incorporated into the electroweak unification by Weinberg, Salam, and Glashow.</p>
-</div>
+  <img src="{{ '/images/mcmcfile.png' | relative_url }}" class="research-thumb" width="400" height="200" alt="Parton model">
+  <div class="research-body">
+    <h2 class="research-title">
+      <a href="{{ '/research/exoplanet-characterisation/' | relative_url }}">Exoplanet Characterisation</a>
+    </h2>
+    <p class="research-desc">In the summer of 2022, I participated in Harvard's Summer School program. As part of that program, I took a course entitled Astronomy: The Life and Death of Stars. In this class, we explored the beginnings of the universe, the life cycle of stars, and the nature of planet formation.</p>
+  </div>
 </div>
 
 </div>
