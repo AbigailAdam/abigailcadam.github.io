@@ -1,7 +1,9 @@
 <div class="profile-card">
 <a href="{{ '/about' | relative_url }}">
-<img src="{{ site.photo | prepend: '/images/' | relative_url }}" class="profile-photo" alt="{{ site.name }}" width="140" height="140" fetchpriority="high">
+<img src="{{ site.photo | prepend: '/images/' | relative_url }}" class="profile-photo" alt="{{ site.name }}" width="440" height="440" fetchpriority="high">
 </a>
+
+<!--
 <p class="profile-name">{{ site.name }}</p>
 <p class="profile-title">{{ site.title }}</p>
 <p class="profile-institution">{{ site.institution }}</p>
@@ -23,7 +25,7 @@
 </ul>
 {% endif %}
 </div>
-<!--
+
 <div class="section-card" style="margin-top: var(--space-6);">
 <h2 style="margin-top: 0; font-size: 1.125rem;">News</h2>
 <div class="news-timeline">

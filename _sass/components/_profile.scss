@@ -11,7 +11,7 @@
   );
   border: 1px solid var(--border-color);
   border-radius: var(--radius-xl);
-  padding: var(--space-10) var(--space-6) var(--space-8);
+  padding: var(--space-4) var(--space-3) var(--space-3);
   box-shadow: var(--shadow-md);
   position: relative;
   overflow: hidden;
@@ -28,12 +28,12 @@
   }
 
   .profile-photo {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
+    width: 440px;
+    height: 540;
+    border-radius: 5%;
     object-fit: cover;
     margin-bottom: var(--space-4);
-    border: 3px solid var(--bg-primary);
+    //border: 3px solid var(--bg-primary);
     box-shadow:
       0 0 0 1px var(--border-color),
       var(--shadow-md);

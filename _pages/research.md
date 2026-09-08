@@ -6,6 +6,8 @@ permalink: /research/
 
 # Projects
 
+Click on each project to learn more! 
+
 <div class="research-grid" markdown="0">
 
 <div class="research-card">
