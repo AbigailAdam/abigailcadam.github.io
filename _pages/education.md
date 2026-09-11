@@ -1,7 +1,7 @@
 ---
 title: "Education"
 layout: page
-permalink: /about/
+permalink: /education/
 ---
 
 # Education
@@ -11,9 +11,9 @@ permalink: /about/
 <img src="{{ '/images/ubc_logo.png' | relative_url }}" class="pi-photo" alt="{{ site.name }}" width="400" height="400">
 <div>
 <h4 class="pi-name"> University of British Columbia, Bachelors of Applied Science </h4>
-<p> Major in Engineering Physics, Specialization in Physics <br>
- Expected graduation: 2028 <br>
- Dean's List </p>
+<p> <strong> Major in Engineering Physics, Specialization in Physics </strong>  <br>
+ 2023 - Present  <br>
+ Dean's List, 2023 - 2026 </p>
 <h5> Relevant Coursework </h5>
 <ul>  
   <li>Applied Complex Analysis (MATH 305)</li>

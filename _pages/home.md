@@ -43,7 +43,7 @@ permalink: /
 
 I am an Engineering Physics student at the University of British Columbia, entering my fourth year. I am currently working as an electrical engineering intern at Lunar Outpust, focusing on the testing and design of complex DC-DC power systems vital to the operations of rovers on the lunar surface.
 
-I am fascinated by problems at the intersection of physics, mathematics, and engineering, and combining theory with practice to solve them. [more text here]
+I am fascinated by problems at the intersection of physics, mathematics, and engineering, and combining theory with practice to solve them. 
 
 <!-- 
 <div class="callout callout-success" markdown="0">

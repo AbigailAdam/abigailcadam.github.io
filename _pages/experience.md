@@ -1,7 +1,7 @@
 ---
-title: "Blog"
+title: "Experience"
 layout: page
-permalink: /blog/
+permalink: /experience/
 ---
 
 # Experience
