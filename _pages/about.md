@@ -1,35 +1,38 @@
 ---
-title: "About"
+title: "Education"
 layout: page
 permalink: /about/
 ---
 
-# About
+# Education
 
 <div class="section-card">
 <div class="pi-card">
-<img src="{{ site.photo | prepend: '/images/' | relative_url }}" class="pi-photo" alt="{{ site.name }}" width="160" height="160">
+<img src="{{ '/images/ubc_logo.png' | relative_url }}" class="pi-photo" alt="{{ site.name }}" width="400" height="400">
 <div>
-<h2 class="pi-name">{{ site.name }}</h2>
-<p style="font-style: italic; color: var(--text-secondary);">{{ site.title }}, {{ site.institution }}</p>
-<div class="pi-links">
-{% if site.email %}<a href="mailto:{{ site.email }}" class="icon-link" title="Email" aria-label="Email">{% include icon.html name="envelope" %}</a>{% endif %}
-{% if site.links.cv and site.links.cv != "" %}<a href="{{ site.links.cv | prepend: '/' | relative_url }}" class="icon-link" title="CV" aria-label="CV">{% include icon.html name="cv" %}</a>{% endif %}
-{% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}" class="icon-link" title="Google Scholar" aria-label="Google Scholar">{% include icon.html name="google-scholar" %}</a>{% endif %}
-{% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}" class="icon-link" title="GitHub" aria-label="GitHub">{% include icon.html name="github" %}</a>{% endif %}
-{% if site.links.researchgate and site.links.researchgate != "" %}<a href="{{ site.links.researchgate }}" class="icon-link" title="ResearchGate" aria-label="ResearchGate">{% include icon.html name="researchgate" %}</a>{% endif %}
-</div>
-{% if site.data.pi[0].education %}
-<ul style="margin-top: var(--space-4);">
-{% for education in site.data.pi[0].education %}
-<li>{{ education | replace: "-","&#8211;" }}</li>
-{% endfor %}
+<h4 class="pi-name"> University of British Columbia, Bachelors of Applied Science </h4>
+<p> Major in Engineering Physics, Specialization in Physics <br>
+ Expected graduation: 2028 <br>
+ Dean's List </p>
+<h5> Relevant Coursework </h5>
+<ul>  
+  <li>Applied Complex Analysis (MATH 305)</li>
+  <li>Digital Systems and Microcomputers (CPEN 312)</li>
+  <li>Data Structures and Algorithms (CPEN 221)</li>
+  <li>Linear Circuits (ELEC 204)</li>
+  <li>Machine Learning Project (ENPH 353)</li>
+  <li>Partial Differential Equations (MATH 257)</li>
+  <li>Probability and Stochastic Processes (MATH 318)</li>
+  <li>Signals and Systems (ELEC 221)</li>
+  <li>Quantum Mechanics I (PHYS 304)</li>
 </ul>
-{% endif %}
+
+
 </div>
 </div>
 </div>
 
+<!-- 
 {% if site.data.grants %}
 <div class="section-card">
 <h3>Grants</h3>
@@ -62,3 +65,4 @@ permalink: /about/
 </div>
 </div>
 {% endif %}
+-->
