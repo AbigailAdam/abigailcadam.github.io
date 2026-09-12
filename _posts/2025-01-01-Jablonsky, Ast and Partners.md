@@ -5,7 +5,7 @@ date: January to May 2025
 categories: "experience"
 blurb: "Performed research, prepared responses to R.F.Ps, and helped create and test models to predict rebar consumption on large projects."
 image1: images/jap-construction.png
-image2: images/tdc_2.png
+image2: images/jap-tdc.png
 image3: images/jap-tdc-fig.png
 ---
 
