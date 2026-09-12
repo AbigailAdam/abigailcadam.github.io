@@ -4,8 +4,10 @@ title: "UBC Agroponics"
 date: September 2024 - Present
 categories: "experience"
 math: true
-image1: images/agroponicslogo.png
-image2: images/software_architecture_agro.png
+blurb: "Developed and tested hardware and firmware for an automated hydroponic system, using C/C++, Python, ESP32 and RaspberryPi."
+image1: images/agroponics_radishes.png
+image2: images/agroponics_code.png
+image3: images/agroponics_pcb.png
 ---
 
 <h3>Skills</h3>
