@@ -23,8 +23,8 @@ permalink: /
 </div>
 
 <div class="chip-container" markdown="0">
-<a href="{{ '/projects' | relative_url }}" class="chip">Altium</a>'
-<a href="{{ '/projects' | relative_url }}" class="chip">Applied Physics</a>'
+<a href="{{ '/projects' | relative_url }}" class="chip">Altium</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">Applied Physics</a>
 <a href="{{ '/projects' | relative_url }}" class="chip">Astronomy</a>
 <a href="{{ '/projects' | relative_url }}" class="chip">C/C++</a>
 <a href="{{ '/projects' | relative_url }}" class="chip">Git</a>
