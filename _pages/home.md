@@ -23,20 +23,20 @@ permalink: /
 </div>
 
 <div class="chip-container" markdown="0">
-<a href="{{ '/research' | relative_url }}" class="chip">Altium</a>'
-<a href="{{ '/research' | relative_url }}" class="chip">Applied Physics</a>'
-<a href="{{ '/research' | relative_url }}" class="chip">Astronomy</a>
-<a href="{{ '/research' | relative_url }}" class="chip">C/C++</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Git</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Java</a>
-<a href="{{ '/research' | relative_url }}" class="chip">KiCAD</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Linux</a>
-<a href="{{ '/research' | relative_url }}" class="chip">LTspice</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Machine Learning</a>
-<a href="{{ '/research' | relative_url }}" class="chip">MATLAB</a>
-<a href="{{ '/research' | relative_url }}" class="chip">PCB Design</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Python</a>
-<a href="{{ '/research' | relative_url }}" class="chip">ROS</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">Altium</a>'
+<a href="{{ '/projects' | relative_url }}" class="chip">Applied Physics</a>'
+<a href="{{ '/projects' | relative_url }}" class="chip">Astronomy</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">C/C++</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">Git</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">Java</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">KiCAD</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">Linux</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">LTspice</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">Machine Learning</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">MATLAB</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">PCB Design</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">Python</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">ROS</a>
 
 
 </div>
